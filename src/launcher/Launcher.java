@@ -13,7 +13,7 @@ public class Launcher {
         //creating and showing this application's GUI.
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-            	Student alumno = new Student(117858, "Loos", "Rodrigo", "rodrigoloos@outlook.es", "https://github.com/Rodrigoloos97", "../images/yo-2.png");
+            	Student alumno = new Student(117858, "Loos", "Rodrigo", "rodrigoloos@outlook.es", "https://github.com/Rodrigoloos97", "/images/yo-2.png");
             	JFrame gui= new SimplePresentationScreen(alumno);
             	
             	
